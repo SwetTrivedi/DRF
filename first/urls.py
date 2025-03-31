@@ -9,5 +9,6 @@ urlpatterns = [
     # path('stulist',views.student_list)
 
     path('stucreate/',views.student_create),
-    path('stuupdate/',v.student_api),
+    # path('stuupdate/',v.student_api),
+    path('stuupdate/',v.Studentapi.as_view()),
 ]
